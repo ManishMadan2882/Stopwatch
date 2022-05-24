@@ -9,8 +9,9 @@
   
 }
 #time{
-    width: 32.5rem;
+    width: 33rem;
     border:3px solid rgb(52, 107, 78);
+    text-align: center;
     border-radius: 18px;
     padding: 10px 10px;
 }
@@ -33,9 +34,9 @@
    font-weight: bold;
    /* font-family: 'Courier New', Courier, monospace; */
     width:7rem;
-    background-color: black;
+    background-color: rgb(66, 65, 65);
     border:none;
-    color: rgb(107, 163, 139);
+    color: rgb(111, 177, 149);
     font-size: large;
     font-family: 'Quantico', sans-serif;
     border-radius: 20px;
@@ -57,3 +58,21 @@
     color: rgb(171, 182, 220);
     background-color: rgb(27, 7, 11);
 }
+@media screen and (max-width: 600px) {
+    #time{
+        color: rgb(206, 139, 13);
+        width:80%;
+        border: 3px solid rgb(142, 50, 16);
+    }
+    .template{
+        font-size: 2rem;
+      
+    }
+    .btn{
+        width:95%;
+    }
+    .button{
+        color: rgb(206, 139, 13);
+    }
+    
+  }
