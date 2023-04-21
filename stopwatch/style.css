@@ -9,6 +9,7 @@
   
 }
 #time{
+  position: absolute,
     width: 33rem;
     border:3px solid rgb(52, 107, 78);
     text-align: center;
